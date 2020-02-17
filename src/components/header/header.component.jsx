@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 
 import "./header.styles.scss";
 
-//port SHOP_DATA from "../../pages/shop/shop.data.js";
-
-// import CollectionPreview from "../../components/collection-preview/collection-preview";
 // // <Logo className="logo" />
 // https://stackoverflow.com/questions/42296499/how-to-display-svg-icons-svg-files-in-ui-using-react-component
 
@@ -23,8 +20,8 @@ class Header extends React.Component {
           <Link className="option" to="/shop">
             SHOP
           </Link>
-          <Link className="option" to="/shop">
-            CONTACT
+          <Link className="option" to="/signin">
+            SIGN IN
           </Link>
         </div>
       </div>
