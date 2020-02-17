@@ -4,3 +4,6 @@
 
 # Sorce Repo
 https://github.com/ZhangMYihua/lesson-1
+
+# Github Help
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
