@@ -13,11 +13,6 @@ import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 
-import "./App.css";
-
-// https://github.com/ZhangMYihua/lesson-7/blob/master/src/App.js
-
-
 class App extends React.Component {
 
     unsubscribeFromAuth = null;
@@ -49,7 +44,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="App">
+            <div>
                 <Header />
                 <Switch>
                     <Route exact path="/" component={HomePage} />
